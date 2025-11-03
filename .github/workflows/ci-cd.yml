@@ -28,19 +28,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest mlflow scikit-learn pandas flake8 wget
 
-<<<<<<< HEAD
       # 4. Train model (MLflow tracking set to local folder)
-=======
-      # 4. Ensure CSV exists for CI
-      - name: Prepare dataset for CI
-        run: |
-          mkdir -p data/raw
-          if [ ! -f data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv ]; then
-            wget -O data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
-          fi
-
-      # 5. Train model (MLflow tracking set to local folder)
->>>>>>> 2986af24e979ee7bf3d419c11faf39f862a92f95
       - name: Train model
         run: |
           python -c "import mlflow; mlflow.set_tracking_uri('file://./mlruns')"
