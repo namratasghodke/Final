@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/karis/OneDrive/Desktop/Agentic_AI/Churn_project/mlops-churn-capstone/tests/mlruns/107043549396696605/models/m-8f91162ee16b43cea2639519fda913e9/artifacts
+creation_timestamp: 1762146080954
+experiment_id: '107043549396696605'
+last_updated_timestamp: 1762146094008
+model_id: m-8f91162ee16b43cea2639519fda913e9
+model_type: null
+name: model
+source_run_id: f746b040fa9a431fbb9c2b9dbdae2e56
+status: 2
+status_message: null

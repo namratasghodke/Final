@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/karis/OneDrive/Desktop/Agentic_AI/Churn_project/mlops-churn-capstone/tests/mlruns/107043549396696605/models/m-8f91162ee16b43cea2639519fda913e9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.1.4
+model_id: m-8f91162ee16b43cea2639519fda913e9
+model_size_bytes: 523762
+model_uuid: m-8f91162ee16b43cea2639519fda913e9
+prompts: null
+run_id: f746b040fa9a431fbb9c2b9dbdae2e56
+utc_time_created: '2025-11-03 05:01:21.065260'
